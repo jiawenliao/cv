@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   right: 0;
   content: '';
-  background: rgba(0, 0, 0, 0.5);
+ /* background: rgba(0, 0, 0, 0.5);*/
   z-index: 1;
 }
 .section-overlay .float-overlay {
@@ -526,7 +526,7 @@ ba
 
 .fh5co-grey-section {
   background: rgba(0, 0, 0, 0.03);
-  padding: 5em 0;
+  padding: 2em 0;
 }
 
 .fh5co-border-line {
@@ -575,7 +575,7 @@ ba
 }
 
 #fh5co-product-section .product-inner {
-  margin-bottom: 7em;
+  margin-bottom: 2em;
   float: left;
   width: 100%;
 }
@@ -730,6 +730,23 @@ input[type="text"] {
   text-transform: uppercase;
   position: relative;
   color: #a980cd;
+}
+.heading-section-blue h3 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  color: #80c4cd;
+}
+
+.heading-section-orange h3 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    color: #d6663a;
 }
 
 .btn {
